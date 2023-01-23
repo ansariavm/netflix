@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: white;
+}
+.headar{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(imeges/Header.imege.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0;
+}
+.logo{
+    margin: -215px;
+    width: 823px;
+    cursor: pointer;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 58px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 315px;
+    height: 125px;
+}
+.laguage-btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: #fff 1px solid;
+    padding: 7px 10;
+}
+.headar-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin: 100px;
+
+}
+.headar-content h1{
+    font-size: 184px;
+    line-height: 210px;
+    font-weight: 700;
+}
+.headar-content h3{
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-family: sans-serif
+}
+.email-sign{
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: 50px;
+    overflow: hidden;
+}
+
+.email-sign input{
+flex: 1;
+border: 0;
+outline: 0;
+margin-left: 20px;
+font-size: 50px;
+}
+.email-sign button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 50px;
+    cursor: pointer;
+    padding: 50px 50px;
+}
+.headar-content p{
+    font-size: 20px;
+    margin-bottom: 65px;
+}
+
+.email-sign button{
+    size: 20px;
+}
+.headar-content p{
+    font-size: 55px;
+    margin-bottom: 60px;
+}
+
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.imege-colm{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.imege-colm img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.text-col {
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+.first{
+    font-size: 170px;
+    margin-bottom: 20px;
+}
+.second{
+    font-size: 80px;
+}
+.faq{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+}
+.f1{
+    font-size: 140px;
+}
+.ask-qus{
+    margin: 45px;
+    width: 100%;
+    padding-left: 1300px;
+    max-width: 3208px;
+}
+.ask-qus li{
+    list-style: none;
+    width: 100%;
+    padding: 10px;
+    
+}
+.ask-qus li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 75px;
+    font-weight: 500;
+    background-color: #303030;
+    margin-bottom: 2px;
+    cursor:pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 70px;
+    position: 34;
+    position: absolute;
+    right: 50px;
+}
+input {
+    display: none;
+}
+.ask-qus .content{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.faq .email-sign{
+    width: 1000px;
+    margin:50px auto 50px;
+}
+.faq small{
+    font-size: 50px;
+}
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color:#777;
+
+}
+.footer h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer .col a{
+flex-basis: 25%;
+flex-grow: 1;
+margin-bottom: 20px;
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-right: 40px
+}
+.footer .row{
+align-items: flex-start;
+padding: 10px 0;
+}
+.footer .laguage-btn{
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 30px;
+}
+.copy-r{
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;  
+}
